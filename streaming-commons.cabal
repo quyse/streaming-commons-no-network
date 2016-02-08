@@ -31,8 +31,6 @@ library
                        Data.Streaming.ByteString.Builder.Class
                        Data.Streaming.FileRead
                        Data.Streaming.Filesystem
-                       Data.Streaming.Network
-                       Data.Streaming.Network.Internal
                        Data.Streaming.Process
                        Data.Streaming.Process.Internal
                        Data.Streaming.Text
@@ -52,7 +50,6 @@ library
                      , blaze-builder >= 0.3 && < 0.5
                      , bytestring
                      , directory
-                     , network
                      , random
                      , process
                      , stm
@@ -87,7 +84,6 @@ test-suite test
                     Data.Streaming.BlazeSpec
                     Data.Streaming.FileReadSpec
                     Data.Streaming.FilesystemSpec
-                    Data.Streaming.NetworkSpec
                     Data.Streaming.ProcessSpec
                     Data.Streaming.TextSpec
                     Data.Streaming.ZlibSpec
@@ -101,7 +97,6 @@ test-suite test
                   , blaze-builder
                   , bytestring
                   , deepseq
-                  , network
                   , text
                   , zlib
 
